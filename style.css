@@ -37,6 +37,13 @@ font-family: 'Courier New', Courier, monospace;
 font-size: max(1rem,1.4vw);
 cursor: pointer;
 }
+label{
+margin: 0;
+width: 100%;
+display: block;
+text-align: center;
+font-size: max(0.8rem,0.8vw);
+}
 .close-button:hover{
 font-weight: 800;
     }
