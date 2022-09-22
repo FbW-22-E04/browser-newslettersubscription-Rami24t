@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.popup{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translateX(-50%) translateY(-50%);
+background-color: orange;
+padding: 0.5vw 0.5vw 2vw 0.5vw ;
+min-width: 50%;
+min-height: 30%;
+transition: opacity 0.5s;
+opacity: 0;
+}
+.close-button{
+display: block;
+width: 12px;
+margin: 0 12px 12px auto;
+font-family: 'Courier New', Courier, monospace;
+font-size: max(1rem,1.4vw);
+cursor: pointer;
+}
+.close-button:hover{
+font-weight: 800;
+    }
+form{
+padding: 0.2vw;
+}
+input{
+margin-top: 36px;    
+margin: 10% auto 5% auto;
+display: block;
+min-width: 80%;
+padding: 12px;
+font-size: max(1rem,1.1vw);
+}
+button{
+display: block;
+margin: auto;
+padding: 12px;
+background-color: turquoise;
+color: navy;
+font-size: max(1rem,1.4vw);
+cursor: pointer;
+}
+button:hover{
+    background-color: rgb(72, 242, 225);
+    color: rgb(0, 0, 44);
+    cursor: pointer;
+    }
